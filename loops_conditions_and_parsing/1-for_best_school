@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-# This script prints "Best School" 10 times
-counter=0; while [ $counter -lt 10 ]; do echo "Best School"; counter=$((counter + 1)); done
+# count=0; until [ $count -ge 10 ]; do echo "Best School"; count=$((count + 1)); done
