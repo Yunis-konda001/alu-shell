@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-# ; count=0; while [ $count -lt 10 ]; do echo "Best School"; count=$((count + 1)); done
+# This script is displaying "Best school" 10 times
+for i in {1..10}
+do
+	echo "Best school"
+done 
