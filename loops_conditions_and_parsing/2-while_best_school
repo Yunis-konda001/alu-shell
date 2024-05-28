@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
-# ; counter=0; while [ $counter -lt 10 ]; do echo "Best School"; counter=$((counter + 1)); done
+# displays Best School 10 times.
+
+for (( c=1; c<=10; c++ ))
+do
+    echo "Best School"
+done
