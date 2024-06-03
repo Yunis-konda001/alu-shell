@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script displays the PID and process name of processes whose name contains "bash"
-
+# shellcheck disable=SC2009
 for pid in $(ls /proc | grep -E '^[0-9]+$'); do
     if [[ -f /proc/$pid/comm ]]; then
         comm=$(cat /proc/$pid/comm)
